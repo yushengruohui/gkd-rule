@@ -1,0 +1,6 @@
+# 不在这里保存数据库、SSH、API 或 ES 凭据。
+
+# 项目代码允许写入工作区；涉及工作区外或高风险操作时请求确认。
+#sandbox_mode = "workspace-write"
+sandbox_mode = "danger-full-access"
+approval_policy = "on-request"
