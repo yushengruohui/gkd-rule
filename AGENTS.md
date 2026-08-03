@@ -1,5 +1,7 @@
 # Repository Guidelines
 
+For GKD rule authoring requirements, see [`.agents/spec/gkd-rules.md`](.agents/spec/gkd-rules.md).
+
 ## Project Structure & Module Organization
 
 This is a TypeScript template for a GKD subscription. Keep editable
