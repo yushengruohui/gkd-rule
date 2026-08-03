@@ -1,0 +1,4 @@
+interface:
+  display_name: "GKD Rule CLI"
+  short_description: "Turn GKD snapshots into verified rule commits."
+  default_prompt: "Use $gkd-rule-cli to turn this GKD snapshot into a validated rule."
