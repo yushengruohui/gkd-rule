@@ -18,7 +18,7 @@ export default defineGkdApp({
     {
       key: 2,
       name: '视频广告',
-      enable: false,
+      enable: true,
       activityIds: [
         'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
       ],
