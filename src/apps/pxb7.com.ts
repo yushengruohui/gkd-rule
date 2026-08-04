@@ -15,5 +15,18 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '更新提示',
+      enable: false,
+      activityIds: ['com.pxb7.entrance.ui.main.EntranceMainActivity'],
+      rules: [
+        {
+          key: 1,
+          matches:
+            '@[vid="ivClose"][clickable=true][visibleToUser=true][parent.getChild(3).vid="tvVersion"][parent.getChild(3).visibleToUser=true]',
+        },
+      ],
+    },
   ],
 });

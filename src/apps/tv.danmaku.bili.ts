@@ -15,5 +15,26 @@ export default defineGkdApp({
         },
       ],
     },
+    {
+      key: 2,
+      name: '视频广告',
+      enable: false,
+      activityIds: [
+        'com.bilibili.ship.theseus.detail.UnitedBizDetailsActivity',
+      ],
+      rules: [
+        {
+          key: 1,
+          matches:
+            '@[vid="more_layout"][clickable=true][visibleToUser=true][parent.parent.vid="ad_tint_frame"]',
+        },
+        {
+          key: 2,
+          preKeys: [1],
+          matches:
+            '@[vid="reason1_layout"][clickable=true][visibleToUser=true] > [text="不想看该内容"][visibleToUser=true]',
+        },
+      ],
+    },
   ],
 });
