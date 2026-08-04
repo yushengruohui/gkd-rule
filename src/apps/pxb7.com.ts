@@ -18,7 +18,7 @@ export default defineGkdApp({
     {
       key: 2,
       name: '更新提示',
-      enable: false,
+      enable: true,
       activityIds: ['com.pxb7.entrance.ui.main.EntranceMainActivity'],
       rules: [
         {

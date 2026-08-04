@@ -7,7 +7,7 @@ export default defineGkdApp({
     {
       key: 1,
       name: '更新提示',
-      enable: false,
+      enable: true,
       activityIds: ['com.dragon.read.pages.main.MainFragmentActivity'],
       rules: [
         {
